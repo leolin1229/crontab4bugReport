@@ -1,0 +1,15 @@
+{
+  "name": "crontab_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "go": "node index.js"
+  },
+  "author": "linjunfeng",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^4.4.17",
+    "node-schedule": "^1.1.0"
+  }
+}

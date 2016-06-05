@@ -1,0 +1,2 @@
+# crontab4bugReport
+前端错误监控定时清mongodb数据脚本

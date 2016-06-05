@@ -4,7 +4,6 @@ var Schema = mongoose.Schema;
 var logSchema = new Schema({
 	ip: String,
 	user_agent: String,
-	user_id: String, // 用户id
 	create_time: Number, // log创建时间
 	resolution: String, // 分辨率
 	message: String,

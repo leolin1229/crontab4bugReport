@@ -6,8 +6,8 @@
   "scripts": {
     "go": "node index.js"
   },
-  "author": "linjunfeng",
-  "license": "ISC",
+  "author": "leolin",
+  "license": "MIT",
   "dependencies": {
     "mongoose": "^4.4.17",
     "node-schedule": "^1.1.0"

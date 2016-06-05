@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-var DB_URL = 'mongodb://localhost:27017/log4vstar';
+var DB_URL = 'mongodb://localhost:27017/bug';
 
 /**
  * 连接
@@ -7,8 +7,8 @@ var DB_URL = 'mongodb://localhost:27017/log4vstar';
 mongoose.connect(DB_URL);
 
 /**
-  * 连接成功
-  */
+ * 连接成功
+ */
 mongoose.connection.on('connected', function () {    
     console.log('Mongoose connection open to ' + DB_URL);  
 });    
